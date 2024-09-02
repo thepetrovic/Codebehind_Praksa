@@ -140,9 +140,6 @@ namespace Olimpijske_igre
             double averagePoints = 80;
             double standardDeviation = 10;
 
-            //double formFactor = (CalculatTeamForm(team1) - CalculatTeamForm(team2)) / 20.0;
-            //double rankFactor = (team1.FIBARanking - team2.FIBARanking) / 10.0;
-
             return (int)(new Random().NextDouble() * standardDeviation + averagePoints);
         }
         public Result GetResult(Team team1, Team team2)
